@@ -22,8 +22,7 @@
   --backdrop-color: rgb(0 0 0 / 0.75);
 }
 
-.theme-dark .button-hover::before
- {
+.theme-dark .button-hover::before {
   background-color: var(--themes-main-color, #00CC14);
 }
 
@@ -55,18 +54,17 @@
     --backdrop-color: rgb(0 0 0 / 0.75);
   }
 
-  .button-hover::before
- {
-  background-color: var(--themes-main-color, #00CC14);
- }
+  .button-hover::before {
+    background-color: var(--themes-main-color, #00CC14);
+  }
 
   .card__title {
-  font-variation-settings: "wght" 785;
-}
+    font-variation-settings: "wght" 785;
+  }
 
   .card__text {
-  font-variation-settings: "wght" 465;
-}
+    font-variation-settings: "wght" 465;
+  }
 
 }
 
