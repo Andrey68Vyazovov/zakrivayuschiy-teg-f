@@ -233,7 +233,7 @@ button {
 }
 
 @supports (-webkit-text-stroke: 1px #fff) {
-  .watermark  {
+  .watermark {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(
       --themes-background,
