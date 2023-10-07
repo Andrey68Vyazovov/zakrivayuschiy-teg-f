@@ -40,7 +40,7 @@ button {
 .content-section {
   margin: 0 auto;
   display: flex;
-  gap: 50px;
+  gap: 48px;
   flex-direction: column;
 }
 
@@ -55,7 +55,7 @@ button {
   padding-block-end: 25px;
   border: 2px solid var(--themes-main-color, #000);
   margin-block-start: 102px;
-  margin-block-end: 104px;
+  margin-block-end: 102px;
   background-color: var(--themes-background, #fff);
   font-family: var(--accent-font, sans-serif);
   font-style: normal;
@@ -471,11 +471,14 @@ dialog::backdrop {
 @media (697px <= width) {
   .content-section {
     max-inline-size: 698px;
+    gap: 50px;
   }
 
   .header {
     block-size: 364px;
     padding-block-start: 136px;
+    margin-block-end: 104px;
+    gap: 20px;
   }
 
   .header__title {
@@ -484,6 +487,10 @@ dialog::backdrop {
 
   .header__text {
     font-size: 23px;
+  }
+
+  .card__text {
+    padding: 0 24px;
   }
 
   .watermark {
