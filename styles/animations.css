@@ -12,3 +12,46 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes like-icon {
+  0% {
+    --core: var(--heart-active, #ff0000);
+  }
+  16.6% {
+    --main-color: var(--heart-active, #ff0000);
+    --contour: var(--heart-active, #ff0000);
+  }
+  33.2% {
+    --main-color: var(--heart-active, #ff0000);
+    --contour: var(--heart-active, #ff0000);
+  }
+  49.8% {
+    scale: 1.5;
+  }
+  60% {
+    scale: 1;
+  }
+  83% {
+    --sparcks: var(--heart-active, #ff0000);
+  }
+  100% {
+    --sparcks: var(--sparcks, #fff);
+    --core: var(--heart-active, #ff0000);
+    --main-color: var(--heart-active, #ff0000);
+    --contour: var(--heart-active, #ff0000);
+  }
+}
+
+@keyframes pointer-shift {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(4px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
