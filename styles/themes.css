@@ -34,7 +34,7 @@
   font-variation-settings: "wght" 465;
 }
 
-@media (prefers-color-scheme: dark) {  
+@media (prefers-color-scheme: dark) {
   :root {
     --themes-main-color: #00CC14;
     --themes-background: #000;
